@@ -8,6 +8,8 @@ public class Test {
 		
 		MyThread myThread = new MyThread(myRunnable);
 		myThread.start();
+		
+		System.out.println("aaabbb");
 	}
 	
 	
